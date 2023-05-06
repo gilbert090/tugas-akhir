@@ -11,7 +11,10 @@
     <title>Hello, world!</title>
   </head>
   <link rel="stylesheet" href="mycss.css">
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+  
   <body>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/js/">
     <!-- awal navbar -->
 <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-warning">
   <div class="container">
@@ -22,13 +25,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-autos">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#jumbotron">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#project">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">project</a>
+            <a class="nav-link" href="#about">project</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">contact</a>
@@ -41,7 +44,7 @@
     <!-- akhir navbar -->
 
 <!-- awal jumbotron -->
-<section class="jumbotron text-center">
+<section class="jumbotron text-center" id="jumbotron">
   <div class="container">
     <img src="asset/image2(1).jpeg" alt=".gilbert.." class="img-thumbnail rounded-circle" width="200px">
     <h1 class="display-4">Gilbert Garison Ho </h1>
@@ -74,19 +77,108 @@
     <div class="row text-center " >
       <div class="col mb-3"><h2>My Project</h2></div>
     </div>
-    <div class="row text-center">
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-  <img src="asset/coding1.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Latihan 1</h5>
-    <p class="card-text">halaman ini dibuat hanya dengan html </p>
-    <a href="projek1/LATIHAN1/latihan1.html" class="btn btn-primary">lihat</a>
-  </div>
-</div>
+    <div class="row">
+      <div class="col" id="projectcoding">
+        <div class="row">
+          <div class="col">
+            <h2 class="p-3">Project Coding</h2>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+            <img src="asset/coding1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Page ini dengan html saja</p>
+              <a href="projek1/LATIHAN1/latihan1.html" class="btn btn-primary">Lihat </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+            <img src="asset/coding1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Page ini dengan html saja</p>
+              <a href="projek1/latihan3/list.html" class="btn btn-primary">Lihat </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+            <img src="asset/coding1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Page ini dengan html saja</p>
+              <a href="projek1/latihan2/latihan2.html" class="btn btn-primary">Lihat </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+            <img src="asset/coding1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Project 4</h5>
+              <p class="card-text">Page ini dengan html saja</p>
+              <a href="projek1/latihan2/gilbert.html" class="btn btn-primary">Lihat </a>
+              </div>
+            </div>
+          </div>
+
       </div>
-      <div class="col"></div>
+      <div class="col" id="projectpiano">
+                <div class="row">
+          <div class="col">
+            <h2 class="p-3">Project piano</h2>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+            <img src="projek2/pexels-juan-pablo-serrano-arenas-1021142.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Page ini dengan html saja</p>
+              <a href="projek1/LATIHAN1/latihan1.html" class="btn btn-primary">Lihat </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+            <img src="projek2/piano2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Page ini dengan html saja</p>
+              <a href="projek1/latihan3/list.html" class="btn btn-primary">Lihat </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+            <img src="projek2/piano3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Page ini dengan html saja</p>
+              <a href="projek1/latihan2/latihan2.html" class="btn btn-primary">Lihat </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+            <img src="asset/coding1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              <h5 class="card-title">Project 4</h5>
+              <p class="card-text">Page ini dengan html saja</p>
+              <a href="projek1/latihan2/gilbert.html" class="btn btn-primary">Lihat </a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+      </div>
     </div>
+
   </div>
 </section>
 
