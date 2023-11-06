@@ -1,0 +1,27 @@
+.red{
+font-size: 130px;
+font-family: Arial;
+color: red;
+text-align: center;
+} 
+
+
+.blue{
+font-size: 130px;
+font-family: arial;
+color: blue;
+text-align: center;
+}
+
+
+
+p{
+color: darkturquoise;
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+background-color: black;
+padding: 30px;
+}
+#putih{
+    color: white;
+}

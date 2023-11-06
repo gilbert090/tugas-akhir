@@ -1,0 +1,15 @@
+.pseud{
+color: orange;
+}
+/* ketika disorot akan menjadi warna */
+.pseud:hover{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px
+}
+/* ketika sudah dikilik bewarna  */
+.pseud2:visited{
+     color: green;
+      font-family: 'Courier New', Courier, monospace;
+     font-size: 60px
+}

@@ -1,0 +1,22 @@
+.box{
+    padding: 10px;
+    border: 1px solid black;
+}
+.box:after{
+  clear: both;
+}
+
+.galery{
+  width: 100px; 
+  height: 100px; 
+  border: 1px solid salmon;
+  background-color: blue;
+  float: left;
+}
+p{
+  padding: 10px;
+}
+
+.clear{
+  clear: left;
+}

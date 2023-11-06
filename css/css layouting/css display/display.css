@@ -1,0 +1,49 @@
+.header{
+background-color: black;
+color: yellow;
+padding: 10px;
+}
+.header h1{
+    font:  2em bold;
+}
+
+.main{
+    padding: 25px;
+    background-color: darkslategrey;
+    color: aquamarine;
+}
+.main h2{
+color: aqua;
+
+}
+.main span{
+   color: darkgoldenrod; 
+}
+em{
+    color: yellow;
+    background-color: black;
+}
+
+
+a{
+    display: inline-block;
+    color: blanchedalmond;
+    width: 50px;
+    height: 25px;
+    padding: 7px;
+    text-align: center;
+    background-color: darkslateblue;
+}
+
+.footer{
+    text-align: center;
+    background-color: darkred;
+    color: darkkhaki;
+    padding: 5px;
+}
+
+
+
+
+
+
